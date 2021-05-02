@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,20 @@
 		4A4CCE32263E5A0000A48D12 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4CCE1D263E59FE00A48D12 /* ContentView.swift */; };
 		4A4CCE33263E5A0000A48D12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A4CCE1E263E5A0000A48D12 /* Assets.xcassets */; };
 		4A4CCE34263E5A0000A48D12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A4CCE1E263E5A0000A48D12 /* Assets.xcassets */; };
+		4A4CCE44263E705A00A48D12 /* SubjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4CCE43263E705A00A48D12 /* SubjectsView.swift */; };
+		4A4CCE45263E705A00A48D12 /* SubjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4CCE43263E705A00A48D12 /* SubjectsView.swift */; };
+		4A4CCE47263E71C200A48D12 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4CCE46263E71C200A48D12 /* Data.swift */; };
+		4A4CCE48263E71C200A48D12 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4CCE46263E71C200A48D12 /* Data.swift */; };
+		4A4CCE4A263E78EF00A48D12 /* TestsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4CCE49263E78EF00A48D12 /* TestsView.swift */; };
+		4A4CCE4B263E78EF00A48D12 /* TestsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4CCE49263E78EF00A48D12 /* TestsView.swift */; };
+		4A4CCE4D263E7B2C00A48D12 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4CCE4C263E7B2C00A48D12 /* DashboardView.swift */; };
+		4A4CCE4E263E7B2C00A48D12 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4CCE4C263E7B2C00A48D12 /* DashboardView.swift */; };
+		4A4CCE51263E7C6100A48D12 /* BarChart in Frameworks */ = {isa = PBXBuildFile; productRef = 4A4CCE50263E7C6100A48D12 /* BarChart */; };
+		4A84A63C263F057500FA4B38 /* AddSubjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A84A63B263F057500FA4B38 /* AddSubjectView.swift */; };
+		4A84A63D263F057500FA4B38 /* AddSubjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A84A63B263F057500FA4B38 /* AddSubjectView.swift */; };
+		4A84A640263F0EB400FA4B38 /* BarChart in Frameworks */ = {isa = PBXBuildFile; productRef = 4A84A63F263F0EB400FA4B38 /* BarChart */; };
+		4A84A643263F12E700FA4B38 /* AddTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A84A642263F12E700FA4B38 /* AddTestView.swift */; };
+		4A84A644263F12E700FA4B38 /* AddTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A84A642263F12E700FA4B38 /* AddTestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +38,13 @@
 		4A4CCE2B263E5A0000A48D12 /* AutoPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A4CCE2D263E5A0000A48D12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A4CCE2E263E5A0000A48D12 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		4A4CCE43263E705A00A48D12 /* SubjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectsView.swift; sourceTree = "<group>"; };
+		4A4CCE46263E71C200A48D12 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		4A4CCE49263E78EF00A48D12 /* TestsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsView.swift; sourceTree = "<group>"; };
+		4A4CCE4C263E7B2C00A48D12 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		4A84A63B263F057500FA4B38 /* AddSubjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSubjectView.swift; sourceTree = "<group>"; };
+		4A84A641263F0FC900FA4B38 /* AutoPlanner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AutoPlanner.entitlements; sourceTree = "<group>"; };
+		4A84A642263F12E700FA4B38 /* AddTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A4CCE51263E7C6100A48D12 /* BarChart in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A84A640263F0EB400FA4B38 /* BarChart in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,10 +70,12 @@
 		4A4CCE16263E59FE00A48D12 = {
 			isa = PBXGroup;
 			children = (
+				4A84A641263F0FC900FA4B38 /* AutoPlanner.entitlements */,
 				4A4CCE1B263E59FE00A48D12 /* Shared */,
 				4A4CCE25263E5A0000A48D12 /* iOS */,
 				4A4CCE2C263E5A0000A48D12 /* macOS */,
 				4A4CCE24263E5A0000A48D12 /* Products */,
+				4A84A63E263F0EB400FA4B38 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,6 +84,12 @@
 			children = (
 				4A4CCE1C263E59FE00A48D12 /* AutoPlannerApp.swift */,
 				4A4CCE1D263E59FE00A48D12 /* ContentView.swift */,
+				4A84A63B263F057500FA4B38 /* AddSubjectView.swift */,
+				4A4CCE4C263E7B2C00A48D12 /* DashboardView.swift */,
+				4A4CCE46263E71C200A48D12 /* Data.swift */,
+				4A4CCE43263E705A00A48D12 /* SubjectsView.swift */,
+				4A84A642263F12E700FA4B38 /* AddTestView.swift */,
+				4A4CCE49263E78EF00A48D12 /* TestsView.swift */,
 				4A4CCE1E263E5A0000A48D12 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -90,6 +121,13 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
+		4A84A63E263F0EB400FA4B38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,6 +144,9 @@
 			dependencies = (
 			);
 			name = "AutoPlanner (iOS)";
+			packageProductDependencies = (
+				4A4CCE50263E7C6100A48D12 /* BarChart */,
+			);
 			productName = "AutoPlanner (iOS)";
 			productReference = 4A4CCE23263E5A0000A48D12 /* AutoPlanner.app */;
 			productType = "com.apple.product-type.application";
@@ -123,6 +164,9 @@
 			dependencies = (
 			);
 			name = "AutoPlanner (macOS)";
+			packageProductDependencies = (
+				4A84A63F263F0EB400FA4B38 /* BarChart */,
+			);
 			productName = "AutoPlanner (macOS)";
 			productReference = 4A4CCE2B263E5A0000A48D12 /* AutoPlanner.app */;
 			productType = "com.apple.product-type.application";
@@ -144,7 +188,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4A4CCE1A263E59FE00A48D12 /* Build configuration list for PBXProject "AutoPlanner" */;
+			buildConfigurationList = 4A4CCE1A263E59FE00A48D12 /* Build configuration list for PBXProject "AutoPlannerClient" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -153,6 +197,9 @@
 				Base,
 			);
 			mainGroup = 4A4CCE16263E59FE00A48D12;
+			packageReferences = (
+				4A4CCE4F263E7C6100A48D12 /* XCRemoteSwiftPackageReference "BarChart" */,
+			);
 			productRefGroup = 4A4CCE24263E5A0000A48D12 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -187,8 +234,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A84A643263F12E700FA4B38 /* AddTestView.swift in Sources */,
+				4A4CCE44263E705A00A48D12 /* SubjectsView.swift in Sources */,
+				4A4CCE4D263E7B2C00A48D12 /* DashboardView.swift in Sources */,
+				4A4CCE4A263E78EF00A48D12 /* TestsView.swift in Sources */,
 				4A4CCE31263E5A0000A48D12 /* ContentView.swift in Sources */,
 				4A4CCE2F263E5A0000A48D12 /* AutoPlannerApp.swift in Sources */,
+				4A84A63C263F057500FA4B38 /* AddSubjectView.swift in Sources */,
+				4A4CCE47263E71C200A48D12 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,8 +249,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A84A644263F12E700FA4B38 /* AddTestView.swift in Sources */,
+				4A4CCE45263E705A00A48D12 /* SubjectsView.swift in Sources */,
+				4A4CCE4E263E7B2C00A48D12 /* DashboardView.swift in Sources */,
+				4A4CCE4B263E78EF00A48D12 /* TestsView.swift in Sources */,
 				4A4CCE32263E5A0000A48D12 /* ContentView.swift in Sources */,
 				4A4CCE30263E5A0000A48D12 /* AutoPlannerApp.swift in Sources */,
+				4A84A63D263F057500FA4B38 /* AddSubjectView.swift in Sources */,
+				4A4CCE48263E71C200A48D12 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +379,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AutoPlanner.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 39SZK2C73D;
 				ENABLE_PREVIEWS = YES;
@@ -332,6 +392,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mibe.AutoPlanner;
 				PRODUCT_NAME = AutoPlanner;
 				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -342,6 +403,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AutoPlanner.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 39SZK2C73D;
 				ENABLE_PREVIEWS = YES;
@@ -354,6 +416,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mibe.AutoPlanner;
 				PRODUCT_NAME = AutoPlanner;
 				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -411,7 +474,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4A4CCE1A263E59FE00A48D12 /* Build configuration list for PBXProject "AutoPlanner" */ = {
+		4A4CCE1A263E59FE00A48D12 /* Build configuration list for PBXProject "AutoPlannerClient" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4A4CCE35263E5A0000A48D12 /* Debug */,
@@ -439,6 +502,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4A4CCE4F263E7C6100A48D12 /* XCRemoteSwiftPackageReference "BarChart" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dawigr/BarChart.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4A4CCE50263E7C6100A48D12 /* BarChart */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4A4CCE4F263E7C6100A48D12 /* XCRemoteSwiftPackageReference "BarChart" */;
+			productName = BarChart;
+		};
+		4A84A63F263F0EB400FA4B38 /* BarChart */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4A4CCE4F263E7C6100A48D12 /* XCRemoteSwiftPackageReference "BarChart" */;
+			productName = BarChart;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4A4CCE17263E59FE00A48D12 /* Project object */;
 }
