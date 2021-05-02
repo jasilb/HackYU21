@@ -15,7 +15,7 @@ public class Planner {
         Subject subject1 = subjects.get(subject);
         tests.add(new Test(subject1,month,day,title));
     }
-    public void MakeCalender(double available){
+    public List<Test> MakeCalender(double available){
         Comparator<Test> comparator = new Comparator<Test>() {
             @Override
             public int compare(Test test1, Test test2) {
@@ -23,8 +23,14 @@ public class Planner {
             }
         };
         tests.sort(comparator);
-        
+        int x=0;
         ArrayList<Test> calender = new ArrayList<>();
+        while (x>=tests.size()|| available-tests.get(x).subject.totalDuration>=0){
+            calender.add(tests.get(x));
+            available-=tests.get(x).subject.totalDuration;
+            x++;
+        }
+        return calender;
     }
 
 
