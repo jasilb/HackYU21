@@ -15,7 +15,7 @@ public class Test {
 		this.subject = subject;
 		this.dueDate = new Calendar.Builder().setDate(LocalDate.now().getYear(),month,day).build();
 		this.title = title;
-		CalculatedPriority  = subject.getPriority()* (System.currentTimeMillis()-dueDate.getTime().getTime());
+		CalculatedPriority  = subject.getPriority()* ((System.currentTimeMillis()-dueDate.getTime().getTime())/100);
 
 	}
 
@@ -45,10 +45,8 @@ public class Test {
 	}
 
 	public double getCalculatedPriority() {
+		CalculatedPriority  = subject.getPriority()* ((System.currentTimeMillis()-dueDate.getTime().getTime())/100);
 		return CalculatedPriority;
 	}
 
-	public void CalculatePriority() {
-		CalculatedPriority  = subject.getPriority()* (System.currentTimeMillis()-dueDate.getTime().getTime());
-	}
 }

@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 class Subject {
 
 	String name;
@@ -33,5 +35,18 @@ class Subject {
 
 	public void setTotalDuration(double totalDuration) {
 		this.totalDuration = totalDuration;
+	}
+
+	@Override
+	public boolean equals(Object o) {
+		if (this == o) return true;
+		if (o == null || getClass() != o.getClass()) return false;
+		Subject subject = (Subject) o;
+		return Double.compare(subject.priority, priority) == 0 && Double.compare(subject.totalDuration, totalDuration) == 0 && Objects.equals(name, subject.name);
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(name, priority, totalDuration);
 	}
 }
